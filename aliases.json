@@ -1,0 +1,25 @@
+{
+  "$schema":"http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json",
+  "contentVersion":"1.0.0.0",
+  "parameters":{},
+  "variables":{},
+  "resources":[],
+
+  "outputs":{
+    "aliases":{
+      "type":"object",
+      "value":{
+
+        "Linux":{
+          "UbuntuLTS":{
+            "publisher":"Canonical",
+            "offer":"UbuntuServer",
+            "sku":"18.04-LTS",
+            "version":"latest"
+          }
+        }
+
+      }
+    }
+  }
+}
